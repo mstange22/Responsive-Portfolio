@@ -287,7 +287,7 @@ input[type=text]:hover {
 }
 
 @media screen and (max-width: 980px) {
-
+	
 	header {
 		background-color: #ffffff;
 		height: 60px;
@@ -295,7 +295,7 @@ input[type=text]:hover {
 	}
 
 	#header-container {
-		width: 464px;
+		width: 512px;
 		margin: 0 auto;
 	}
 
@@ -316,7 +316,7 @@ input[type=text]:hover {
 		font-size: 12px;
 		color: #777777;
 		margin-right: 0px;
-		padding: 20px 0;
+		padding: 22px 0;
 	}
 
 	#about-link {
@@ -335,7 +335,7 @@ input[type=text]:hover {
 	}
 
 	#container {
-		width: 464px;
+		width: 512px;
 		margin: 0 auto;
 		margin-top: 30px;
 		padding: 0;
@@ -346,22 +346,22 @@ input[type=text]:hover {
 	}
 
 	section {
-		width: 240px;
+		width: 295px;
 		margin-left: 0;
-		margin-right: 15px;
+		margin-right: 14px;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
 	}
 
 	h2 {
-		font-size: 22px;
+		font-size: 20px;
 		padding-top:25px;
 		padding-bottom: 20px;
 		padding-left: 20px;
 	}
 
 	#section-container {
-		width: 200px;
+		width: 255px;
 		border-top: 2px solid #dddddd;
 		margin: 0 20px;
 		padding: 0;
@@ -369,7 +369,7 @@ input[type=text]:hover {
 	}
 
 	#mike-mic {
-		width: 200px;
+		width: 255px;
 		margin-right: 20px;
 		padding-top: 0px;
 	}
@@ -382,9 +382,9 @@ input[type=text]:hover {
 	}
 
 	aside {
-		width: 190px;
-		margin-left: 15px;
-		padding-bottom: 30px;
+		width: 185px;
+		margin-left: 14px;
+		padding-bottom: 25px;
 	}
 
 	#aside-header {
@@ -396,23 +396,23 @@ input[type=text]:hover {
 	}
 
 	#aside-container {
-		width: 150px;
+		width: 145px;
 		border-top: 1.5px solid #dddddd;
-		margin: 0 10px;
-		padding-top: 20px;
+		margin: 0 20px;
+		padding-top: 15px;
 		padding-bottom: 20px;
 	}
 
 	#git {
 		float: left;
 		width: 45px;
-		padding-right: 7.5px;
+		padding-right: 5px;
 	}
 
 	#li {
 		float: left;
 		width: 45px;
-		padding-right: 7.5px;
+		padding-right: 5px;
 	}
 
 	#strava {
@@ -430,11 +430,18 @@ input[type=text]:hover {
 		vertical-align: center;
 		font-size: 9px;
 		border-top: solid 5px #4aaaa5;
-	}
-
 }
 
 @media screen and (max-width: 768px) {
+	
+	#header-container {
+		width: 464px;
+	}
+
+	#container {
+		width: 464px;
+	}
+
 
 }
 
