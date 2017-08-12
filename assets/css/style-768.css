@@ -1,0 +1,259 @@
+@media screen and (max-width: 768px) {
+	header {
+		background-color: #ffffff;
+		height: 60px;
+		border-bottom: solid 2px #cccccc;
+	}
+
+	#header-container {
+		width: 600px;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+
+	#name {
+		float: left;
+		background-color: #4aaaa5;
+		color: white;
+		margin-top: 0px;
+		margin-left: 0px;
+		font-size: 24px;
+		font-weight: bold;
+		padding: 18px 20px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	nav {
+		float: right;
+		color: #777777;
+		margin-right: 0px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	#about-link {
+		border-right: 1px solid #cccccc;
+		padding-right: 10px;
+	}
+
+	#portfolio-link {
+		border-right: 1px solid #cccccc;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#contact-link {
+		padding-left: 10px;
+	}
+
+	#container {
+		width: 600px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	#section-header {
+		font-size: 24px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+
+	section {
+		width: 600px;
+		margin-right: 0px;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#section-container {
+		width: 560px;
+		border-top: 2px solid #dddddd;
+		margin: 0 20px;
+		padding-top: 0px;
+	}
+
+	#mike-mic {
+		float: left;
+		width: 280px;
+		margin-right: 20px;
+		padding-top: 20px;
+	}
+
+	.text {
+		float: left;
+		margin-top: 0;
+		line-height: 100%;
+	}
+
+	aside {
+		clear: both;
+		width: 600px;
+		margin-left: 0;
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+	}
+
+	#aside-header {
+		font-size: 18px;
+		font-weight: bold;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	#aside-container {
+		width: 560px;
+		border-top: 1.5px solid #dddddd;
+		margin: 0 20px;
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+	#git {
+		float: left;
+		width: 50px;
+		padding-right: 10px;
+	}
+
+	#li {
+		float: left;
+		width: 50px;
+		padding-right: 10px;
+	}
+
+	#strava {
+		float: left;
+		width: 50px;
+	}
+
+	footer {
+		clear: both;
+		height: 50px;
+		padding-top: 30px;
+		background-color: #666666;
+		color: #dddddd;
+		text-align: center;
+		font-size: 11px;
+		border-top: solid 5px #4aaaa5;
+	}
+
+	.portfolio-image {
+		width: 285px;
+	}
+
+	.box {
+		position: relative;
+		width: 285px;
+		height: 30px;
+		padding-top: 15px;
+		background-color: #4aaaa5;
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	#honu {
+		float: left;
+		width: 285px;
+		height: 213.75px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+
+	#honu div {
+		top: -55px;
+	}
+
+	#napa {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-bottom: 50px;
+	}
+
+	#napa div {
+		top: -55px;
+	}
+
+	#az {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+
+	#az div {
+		top: -55px;
+	}
+
+	#lyon {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-bottom: 50px;
+	}
+
+	#lyon div {
+		top: -55px;
+	}
+
+	#usa {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+	}
+
+	#usa div {
+		top: -55px;
+	}
+
+	label {
+		font-size: 16px;
+	}
+
+	input[type=text] {
+		width: 100%;
+		height: 30px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+	}
+
+	input[type=submit] {
+		width: 120px;
+		height: 40px;
+		background-color: #4aaaa5;
+		color: white;
+		border: none;
+		margin-top: 5px;
+		font-size: 16px;
+	}
+
+	input[type=submit]:hover {
+		background-color: #367c79;
+	}
+
+	input[type=text]:hover {
+		border: 1px solid #4aaaa5;
+	}
+
+	#form-message {
+		width: 100%;
+		height: 200px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+		resize: vertical;
+	}
+
+	#form-message:hover {
+		border: 1px solid #4aaaa5;
+	}
+}

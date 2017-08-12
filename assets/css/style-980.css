@@ -1,0 +1,140 @@
+@media screen and (max-width: 980px) {
+	
+	header {
+		background-color: #ffffff;
+		height: 60px;
+		border-bottom: solid 1px #cccccc;
+	}
+
+	#header-container {
+		width: 512px;
+		margin: 0 auto;
+	}
+
+	#name {
+		float: left;
+		background-color: #4aaaa5;
+		color: white;
+		margin-top: 0px;
+		margin-left: 0px;
+		font-size: 22px;
+		font-weight: bold;
+		padding: 19px 20px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	nav {
+		float: right;
+		font-size: 14px;
+		color: #777777;
+		margin-right: 0px;
+		padding: 22px 0;
+	}
+
+	#about-link {
+		border-right: 1px solid #cccccc;
+		padding-right: 10px;
+	}
+
+	#portfolio-link {
+		border-right: 1px solid #cccccc;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#contact-link {
+		padding-left: 10px;
+	}
+
+	#container {
+		width: 512px;
+		margin: 0 auto;
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	section {
+		width: 295px;
+		margin-left: 0;
+		margin-right: 14px;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+
+	#section-header {
+		font-size: 20px;
+		padding-top:25px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+
+	#section-container {
+		width: 255px;
+		border-top: 2px solid #dddddd;
+		margin: 0 20px;
+		padding: 0;
+		padding-top: 20px;
+	}
+
+	#mike-mic {
+		width: 255px;
+		margin-right: 20px;
+		padding-top: 0px;
+	}
+
+	.text {
+		padding-top: 10px;
+		line-height: 200%;
+		font-size: 12px;
+	}
+
+	aside {
+		width: 185px;
+		margin-left: 14px;
+		padding-bottom: 25px;
+	}
+
+	#aside-header {
+		font-size: 16px;
+		font-weight: bold;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-bottom: 15px;
+	}
+
+	#aside-container {
+		width: 145px;
+		border-top: 1.5px solid #dddddd;
+		margin: 0 20px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+
+	#git {
+		float: left;
+		width: 45px;
+		padding-right: 5px;
+	}
+
+	#li {
+		float: left;
+		width: 45px;
+		padding-right: 5px;
+	}
+
+	#strava {
+		float: left;
+		width: 45px;
+	}
+	
+	footer {
+		clear: both;
+		height: 40px;
+		padding-top: 30px;
+		background-color: #666666;
+		color: #dddddd;
+		text-align: center;
+		vertical-align: center;
+		font-size: 9px;
+		border-top: solid 5px #4aaaa5;
+}

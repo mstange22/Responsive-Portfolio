@@ -1,0 +1,282 @@
+@media screen and (max-width: 640px) {
+	header {
+		background-color: #ffffff;
+		height: 78px;
+		border-bottom: solid 1.5px #cccccc;
+	}
+
+	#header-container {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	#name {
+		display: block;
+		width: 100%;
+		background-color: #4aaaa5;
+		color: white;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		padding: 14.5px 0;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	nav {
+		clear: both;
+		width: 100%;
+		margin: 0 auto;
+		font-size: 10px;
+		color: #777777;
+		margin-right: 0px;
+		padding-top: 12.5px;
+		padding-bottom: 12.5px;
+	}
+
+	#about-link {
+		display: block;
+		float: left;
+		width: 33%;
+		text-align: center;
+		border-right: 1px solid #cccccc;
+		padding: 0;
+	}
+
+	#portfolio-link {
+		float: left;
+		display: block;
+		width: 33%;
+		text-align: center;
+		border-right: 1px solid #cccccc;
+		padding: 0;
+	}
+
+	#contact-link {
+		display: block;
+		text-align: center;
+		float: left;
+		width: 33%;
+		padding: 0;
+	}
+
+	#container {
+		width: 640px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	h2, h3 {
+		color: #4aaaa5;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-bottom: 30px;
+	}
+
+	section {
+		width: 618px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 40px;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+
+	#section-header {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+	}
+
+	#section-container {
+		width: 560px;
+		border-top: 2px solid #dddddd;
+		margin: 0 15px;
+		padding-top: 15px;
+	}
+
+	#mike-mic {
+		float: left;
+		width: 200px;
+		margin-right: 20px;
+		padding-top: 9px;
+	}
+
+	.text {
+		margin-top: 0;
+		line-height: 200%;
+		vertical-align: top;
+	}
+
+	aside {
+		width: 270px;
+		margin-left: 20px;
+		padding-bottom: 40px;
+	}
+
+	#aside-header {
+		font-size: 22px;
+		font-weight: bold;
+		padding-top: 25px;
+		padding-left: 30px;
+		padding-bottom: 20px;
+	}
+
+	#aside-container {
+		border-top: 1.5px solid #dddddd;
+		margin: 0 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#git {
+		float: left;
+		width: 60px;
+		padding-right: 15px;
+	}
+
+	#li {
+		float: left;
+		width: 60px;
+		padding-right: 15px;
+	}
+
+	#strava {
+		float: left;
+		width: 60px;
+	}
+
+	footer {
+		clear: both;
+		height: 50px;
+		padding-top: 30px;
+		background-color: #666666;
+		color: #dddddd;
+		text-align: center;
+		font-size: 11px;
+		border-top: solid 5px #4aaaa5;
+	}
+
+	.portfolio-image {
+		width: 285px;
+	}
+
+	.box {
+		position: relative;
+		width: 285px;
+		height: 30px;
+		padding-top: 15px;
+		background-color: #4aaaa5;
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	#honu {
+		float: left;
+		width: 285px;
+		height: 213.75px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+
+	#honu div {
+		top: -55px;
+	}
+
+	#napa {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-bottom: 50px;
+	}
+
+	#napa div {
+		top: -55px;
+	}
+
+	#az {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+
+	#az div {
+		top: -55px;
+	}
+
+	#lyon {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+		margin-bottom: 50px;
+	}
+
+	#lyon div {
+		top: -55px;
+	}
+
+	#usa {
+		float: left;
+		height: 213.75px;
+		width: 285px;
+	}
+
+	#usa div {
+		top: -55px;
+	}
+
+	label {
+		font-size: 16px;
+	}
+
+	input[type=text] {
+		width: 100%;
+		height: 30px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+	}
+
+	input[type=submit] {
+		width: 120px;
+		height: 40px;
+		background-color: #4aaaa5;
+		color: white;
+		border: none;
+		margin-top: 5px;
+		font-size: 16px;
+	}
+
+	input[type=submit]:hover {
+		background-color: #367c79;
+	}
+
+	input[type=text]:hover {
+		border: 1px solid #4aaaa5;
+	}
+
+	#form-message {
+		width: 100%;
+		height: 200px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+		resize: vertical;
+	}
+
+	#form-message:hover {
+		border: 1px solid #4aaaa5;
+	}
+}
