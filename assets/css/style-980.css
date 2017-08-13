@@ -11,6 +11,7 @@
 		margin: 0 auto;
 	}
 
+	/* Header Name */
 	#name {
 		float: left;
 		background-color: #4aaaa5;
@@ -46,6 +47,7 @@
 		padding-left: 10px;
 	}
 
+	/* container div for section and aside */
 	#container {
 		width: 512px;
 		margin: 0 auto;
@@ -57,8 +59,8 @@
 		width: 295px;
 		margin-left: 0;
 		margin-right: 14px;
-		margin-bottom: 30px;
-		padding-bottom: 30px;
+		margin-bottom: 25px;
+		padding: 0;
 	}
 
 	#section-header {
@@ -74,6 +76,7 @@
 		margin: 0 20px;
 		padding: 0;
 		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	#mike-mic {
@@ -86,6 +89,119 @@
 		padding-top: 10px;
 		line-height: 200%;
 		font-size: 12px;
+	}
+
+	/* Portfolio selectors */
+
+	.portfolio-image {
+		width: 255px;
+	}
+
+	.box {
+		position: relative;
+		width: 255px;
+		height: 30px;
+		padding-top: 15px;
+		background-color: #4aaaa5;
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	#honu {
+		float: left;
+		margin: 0;
+	}
+
+	#honu div {
+		top: -55px;
+	}
+
+	#napa {
+		float: left;
+		margin: 0;
+	}
+
+	#napa div {
+		top: -55px;
+	}
+
+	#az {
+		top: -15px;
+		float: left;
+		margin: 0;
+		margin-right: 40px;
+	}
+
+	#az div {
+		top: -55px;
+	}
+
+	#lyon {
+		top: -15px;
+		float: left;
+		margin: 0;
+	}
+
+	#lyon div {
+		top: -55px;
+	}
+
+	#usa {
+		float: left;
+	}
+
+	#usa div {
+		top: -55px;
+	}
+
+	label {
+		font-size: 16px;
+		/*font-weight: bold;*/
+	}
+
+	input[type=text] {
+		width: 100%;
+		height: 30px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+	}
+
+	input[type=text]:hover {
+		border: 1px solid #4aaaa5;
+	}
+
+	#form-message {
+		width: 100%;
+		height: 200px;
+		padding: 5px 5px;
+		margin-top: 8px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		border: 1px solid #dddddd;
+		resize: vertical;
+	}
+
+	#form-message:hover {
+		border: 1px solid #4aaaa5;
+	}
+
+	input[type=submit] {
+		width: 120px;
+		height: 40px;
+		background-color: #4aaaa5;
+		color: white;
+		border: none;
+		margin-top: 5px;
+		font-size: 16px;
+	}
+
+	input[type=submit]:hover {
+		background-color: #367c79;
 	}
 
 	aside {

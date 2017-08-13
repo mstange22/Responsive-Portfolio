@@ -61,187 +61,61 @@
 		padding: 0;
 	}
 
+	/* main content container */
 	#container {
-		width: 640px;
+		width: 100%;
 		margin: 0 auto;
-		margin-top: 20px;
-	}
-
-	h2, h3 {
-		color: #4aaaa5;
-		font-family: 'Georgia', Times, Times New Roman, serif;
-		font-weight: bold;
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-bottom: 30px;
+		margin-top: 10px;
 	}
 
 	section {
-		width: 618px;
+		width: auto;
 		margin-left: 10px;
 		margin-right: 10px;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 		padding: 0;
-		padding-bottom: 40px;
+		padding-bottom: 15px;
 	}
 
 	#section-header {
-		font-size: 18px;
+		font-size: 16px;
 		padding-top: 20px;
 		padding-bottom: 15px;
 		padding-left: 15px;
 	}
 
 	#section-container {
-		width: 560px;
-		border-top: 2px solid #dddddd;
+		width: auto;
+		border-top: 1.5px solid #dddddd;
 		margin: 0 15px;
-		padding-top: 15px;
+		padding: 0;
+		padding-top: 20px;
 	}
 
 	#mike-mic {
 		float: left;
-		width: 200px;
+		width: 100%;
+		height: auto;
 		margin-right: 20px;
-		padding-top: 9px;
 	}
 
 	.text {
-		margin-top: 0;
-		line-height: 200%;
-		vertical-align: top;
-	}
-
-	aside {
-		width: 270px;
-		margin-left: 20px;
-		padding-bottom: 40px;
-	}
-
-	#aside-header {
-		font-size: 22px;
-		font-weight: bold;
-		padding-top: 25px;
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
-
-	#aside-container {
-		border-top: 1.5px solid #dddddd;
-		margin: 0 30px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-
-	#git {
-		float: left;
-		width: 60px;
-		padding-right: 15px;
-	}
-
-	#li {
-		float: left;
-		width: 60px;
-		padding-right: 15px;
-	}
-
-	#strava {
-		float: left;
-		width: 60px;
-	}
-
-	footer {
 		clear: both;
-		height: 50px;
-		padding-top: 30px;
-		background-color: #666666;
-		color: #dddddd;
-		text-align: center;
-		font-size: 11px;
-		border-top: solid 5px #4aaaa5;
-	}
-
-	.portfolio-image {
-		width: 285px;
-	}
-
-	.box {
-		position: relative;
-		width: 285px;
-		height: 30px;
 		padding-top: 15px;
-		background-color: #4aaaa5;
-		text-align: center;
-		color: white;
-		font-size: 18px;
-		font-family: 'Georgia', Times, Times New Roman, serif;
-	}
-
-	#honu {
-		float: left;
-		width: 285px;
-		height: 213.75px;
-		margin-right: 40px;
-		margin-bottom: 50px;
-	}
-
-	#honu div {
-		top: -55px;
-	}
-
-	#napa {
-		float: left;
-		height: 213.75px;
-		width: 285px;
-		margin-bottom: 50px;
-	}
-
-	#napa div {
-		top: -55px;
-	}
-
-	#az {
-		float: left;
-		height: 213.75px;
-		width: 285px;
-		margin-right: 40px;
-		margin-bottom: 50px;
-	}
-
-	#az div {
-		top: -55px;
-	}
-
-	#lyon {
-		float: left;
-		height: 213.75px;
-		width: 285px;
-		margin-bottom: 50px;
-	}
-
-	#lyon div {
-		top: -55px;
-	}
-
-	#usa {
-		float: left;
-		height: 213.75px;
-		width: 285px;
-	}
-
-	#usa div {
-		top: -55px;
+		font-size: 10px;
+		line-height: 200%;
 	}
 
 	label {
-		font-size: 16px;
+		font-size: 14px;
+		padding: 0;
 	}
 
 	input[type=text] {
 		width: 100%;
 		height: 30px;
 		padding: 5px 5px;
-		margin-top: 8px;
+		margin-top: 5px;
 		margin-bottom: 16px;
 		box-sizing: border-box;
 		border: 1px solid #dddddd;
@@ -253,7 +127,8 @@
 		background-color: #4aaaa5;
 		color: white;
 		border: none;
-		margin-top: 5px;
+		margin-top: 0;
+		margin-bottom: 5px;
 		font-size: 16px;
 	}
 
@@ -269,8 +144,8 @@
 		width: 100%;
 		height: 200px;
 		padding: 5px 5px;
-		margin-top: 8px;
-		margin-bottom: 16px;
+		margin-top: 5px;
+		margin-bottom: 10px;
 		box-sizing: border-box;
 		border: 1px solid #dddddd;
 		resize: vertical;
@@ -279,4 +154,59 @@
 	#form-message:hover {
 		border: 1px solid #4aaaa5;
 	}
+
+	aside {
+		width: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		padding: 0;
+		padding-bottom: 15px;
+}
+
+	#aside-header {
+		display: block;
+		width: auto;
+		font-size: 12px;
+		font-weight: bold;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-bottom: 10px;
+	}
+
+	#aside-container {
+		width: 100%;
+		border-top: 1px solid #dddddd;
+		margin: 0 15px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	#git {
+		float: left;
+		width: 35px;
+		padding-right: 5px;
+	}
+
+	#li {
+		float: left;
+		width: 35px;
+		padding-right: 5px;
+	}
+
+	#strava {
+		float: left;
+		width: 35px;
+	}
+
+	footer {
+		height: 25px;
+		padding-top: 20px;
+		background-color: #666666;
+		color: #dddddd;
+		text-align: center;
+		font-size: 6px;
+		border-top: solid 5px #4aaaa5;
+	}
+
 }
