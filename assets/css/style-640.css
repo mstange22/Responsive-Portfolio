@@ -63,13 +63,15 @@
 
 	/* main content container */
 	#container {
+		max-width: 620px;
 		width: 100%;
-		margin: 0 auto;
+		/*margin: auto;*/
 		margin-top: 10px;
 	}
 
 	section {
 		width: auto;
+		margin: auto;
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 20px;
@@ -106,7 +108,87 @@
 		line-height: 200%;
 	}
 
+	.image-container {
+		clear: both;
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.portfolio-image {
+		max-width: 600px;
+		width: 100%;
+	}
+
+	.box {
+		position: relative;
+		max-width: 600px;
+		width: 100%;
+		height: 30px;
+		margin: 0;
+		padding: 0;
+		padding-top: 15px;
+		background-color: #4aaaa5;
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	#honu {
+		float: left;
+		margin: 0;
+		margin-right: 30px;
+	}
+
+	#honu div {
+		top: -55px;
+	}
+
+	#napa {
+		float: left;
+		margin: 0;
+	}
+
+	#napa div {
+		top: -55px;
+	}
+
+	#az {
+		float: left;
+		margin: 0;
+		margin-right: 30px;
+	}
+
+	#az div {
+		top: -55px;
+	}
+
+	#lyon {
+		float: left;
+		margin: 0;
+	}
+
+	#lyon div {
+		top: -55px;
+	}
+
+	#usa {
+		float: left;
+		margin: 0;
+	}
+
+	#usa div {
+		top: -55px;
+	}
+
+	form {
+		max-width: 600px;
+		width: 100%;
+	}
+	
 	label {
+		max-width: 600px;
+		width: 100%;
 		font-size: 14px;
 		padding: 0;
 	}
@@ -156,6 +238,7 @@
 	}
 
 	aside {
+		margin: auto;
 		width: auto;
 		margin-left: 10px;
 		margin-right: 10px;
@@ -175,6 +258,7 @@
 	}
 
 	#aside-container {
+		max-width: 600px;
 		width: 100%;
 		border-top: 1px solid #dddddd;
 		margin: 0 15px;
@@ -208,5 +292,4 @@
 		font-size: 6px;
 		border-top: solid 5px #4aaaa5;
 	}
-
 }
