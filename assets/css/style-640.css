@@ -64,16 +64,23 @@
 	/* main content container */
 	#container {
 		max-width: 620px;
-		width: 100%;
-		/*margin: auto;*/
+		width: auto;
 		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 
 	section {
-		width: auto;
+		width: 100%;
 		margin: auto;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-bottom: 20px;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	
+	aside {
+		width: 100%;
+		margin: auto;
 		margin-bottom: 20px;
 		padding: 0;
 		padding-bottom: 15px;
@@ -110,8 +117,8 @@
 
 	.image-container {
 		clear: both;
-		width: 100%;
 		max-width: 600px;
+		width: 100%;
 	}
 
 	.portfolio-image {
@@ -236,16 +243,6 @@
 	#form-message:hover {
 		border: 1px solid #4aaaa5;
 	}
-
-	aside {
-		margin: auto;
-		width: auto;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-bottom: 20px;
-		padding: 0;
-		padding-bottom: 15px;
-}
 
 	#aside-header {
 		display: block;
