@@ -101,6 +101,25 @@
 		padding-top: 20px;
 	}
 
+	#aside-header {
+		display: block;
+		width: auto;
+		font-size: 12px;
+		font-weight: bold;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-bottom: 10px;
+	}
+
+	#aside-container {
+		max-width: 600px;
+		width: auto;
+		border-top: 1px solid #dddddd;
+		margin: 0 15px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
 	#mike-mic {
 		float: left;
 		width: 100%;
@@ -242,25 +261,6 @@
 
 	#form-message:hover {
 		border: 1px solid #4aaaa5;
-	}
-
-	#aside-header {
-		display: block;
-		width: auto;
-		font-size: 12px;
-		font-weight: bold;
-		padding-top: 15px;
-		padding-left: 15px;
-		padding-bottom: 10px;
-	}
-
-	#aside-container {
-		max-width: 600px;
-		width: 100%;
-		border-top: 1px solid #dddddd;
-		margin: 0 15px;
-		padding-top: 10px;
-		padding-bottom: 20px;
 	}
 
 	#git {
