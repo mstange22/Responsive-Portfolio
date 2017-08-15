@@ -72,6 +72,8 @@
 
 	section {
 		width: 100%;
+		max-height: 2350px;
+		height: auto;
 		margin: auto;
 		margin-bottom: 20px;
 		padding: 0;
@@ -130,7 +132,7 @@
 	.text {
 		clear: both;
 		padding-top: 15px;
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 200%;
 	}
 
@@ -161,9 +163,8 @@
 	}
 
 	#honu {
-		float: left;
+		clear: both;
 		margin: 0;
-		margin-right: 30px;
 	}
 
 	#honu div {
@@ -171,7 +172,8 @@
 	}
 
 	#napa {
-		float: left;
+		clear: both;
+		top: -20px;
 		margin: 0;
 	}
 
@@ -180,9 +182,9 @@
 	}
 
 	#az {
-		float: left;
+		clear: both;
+		top: 15px;
 		margin: 0;
-		margin-right: 30px;
 	}
 
 	#az div {
@@ -190,7 +192,8 @@
 	}
 
 	#lyon {
-		float: left;
+		clear: both;
+		top: -5px;
 		margin: 0;
 	}
 
@@ -199,12 +202,13 @@
 	}
 
 	#usa {
-		float: left;
+		clear: both;
+		top: 30px;
 		margin: 0;
 	}
 
 	#usa div {
-		top: -55px;
+		top: -167px;
 	}
 
 	form {
@@ -286,7 +290,7 @@
 		background-color: #666666;
 		color: #dddddd;
 		text-align: center;
-		font-size: 6px;
+		font-size: 8px;
 		border-top: solid 5px #4aaaa5;
 	}
 }

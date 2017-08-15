@@ -62,6 +62,7 @@
 
 	section {
 		width: 600px;
+		max-height: 760px;
 		margin-right: 0px;
 		margin-bottom: 25px;
 		padding-bottom: 25px;
@@ -81,6 +82,7 @@
 	}
 
 	.text {
+		clear: unset;
 		float: inherit;
 		margin-top: 0;
 		line-height: 200%;
@@ -122,6 +124,8 @@
 	}
 
 	#napa {
+		position: relative;
+		top: 0px;
 		float: left;
 		margin: 0;
 	}
@@ -132,6 +136,8 @@
 
 	#az {
 		float: left;
+		position: relative;
+		top: 35px;
 		margin: 0;
 		margin-right: 30px;
 	}
@@ -142,6 +148,8 @@
 
 	#lyon {
 		float: left;
+		position: relative;
+		top: 35px;px;
 		margin: 0;
 	}
 
@@ -151,11 +159,13 @@
 
 	#usa {
 		float: left;
+		position: relative;
+		top: 70px;
 		margin: 0;
 	}
 
 	#usa div {
-		top: -55px;
+		top: -167px;
 	}
 	
 	/* Contact form selectors */
@@ -250,8 +260,8 @@
 
 	footer {
 		clear: both;
-		height: 30px;
-		padding-top: 30px;
+		height: 35px;
+		padding-top: 25px;
 		background-color: #666666;
 		color: #dddddd;
 		text-align: center;
